@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Day1
+namespace Day1.Tests
 {
     public class Calc_GetFrequencyShould
     {

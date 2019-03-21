@@ -11,9 +11,8 @@ namespace Day1
 
             Calc calc = new Calc();
 
-            Console.WriteLine($"Frequency: {calc.GetFrequency(text)}");
-
-            //Console.WriteLine(text);
+            Console.WriteLine($"Part 1: Frequency: {calc.GetFrequency(text)}");
+            Console.WriteLine($"Part 2: First Repeating Frequency: {calc.GetFirstRepeatedFrequency(text)}");
         }
     }
 }
