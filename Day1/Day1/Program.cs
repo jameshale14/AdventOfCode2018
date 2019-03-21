@@ -7,7 +7,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            String text = File.ReadAllText("C:\\Shed\\csharp\\AdventOfCode2018\\Day1\\Day1\\input.txt");
+            String text = File.ReadAllText("../../../input.txt");
 
             Calc calc = new Calc();
 
